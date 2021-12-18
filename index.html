@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Title</title>
+</head>
+<body>
+
+    <h3>Задание 1</h3>
+    <input id="add-item-btn" type="button" value="+" onclick="addDiv()">
+    <div id="container">
+    </div>
+
+
+    <h3>Задание 2</h3>
+
+    <button id="start" onclick="start()">Start</button>
+    <button id="stop" onclick="stop()">Stop</button>
+    <div id="container-1"></div>
+
+    <h3>Задание 3</h3>
+
+    <div class="count">
+        <span id="minutes">00</span>
+        <span>:</span>
+        <span id="seconds">00</span>
+    </div>
+    <button id="start1" onclick="intervalStart()">Start</button>
+    <button id="pause1" onclick="intervalStop()">Pause</button>
+    <button id="reset1" onclick="intervalReset()">Reset</button>
+
+    <h3>Задание 4</h3>
+
+    <form>
+        <input type="text" name="username" maxlength="6"  id="btnLogin" placeholder="Username"/>
+        <input type="password" name="password" maxlength="6" id="btnPass" placeholder="Password"/>
+        <input type="submit" id='send' value="Log in" disabled />
+    </form>
+
+</body>
+<script src="app.js"></script>
+</html>
